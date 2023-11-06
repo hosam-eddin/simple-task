@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family: 'Cairo', sans-serif;
+
+}
+.formSection {
+  background-image: url("../public/auth-bg.22907c93.png");
+  background-position: center bottom;
+  background-size: auto;
+}
+input{
+  background-color: white !important;
+}
+a{
+  cursor: pointer;
+}
